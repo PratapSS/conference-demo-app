@@ -7,13 +7,13 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 @Configuration
 public class PersistanceConfiguration {
-    @Bean
-    public DataSource dataSource(){
-
-        DataSourceBuilder builder=DataSourceBuilder.create();
-        builder.url("jdbc:postgresql://localhost:5432/conference_app");
-        builder.username("postgres");
-        builder.password("root");
-        return builder.build();
-    }
+//    @Bean
+//    public DataSource dataSource(){
+//
+//        DataSourceBuilder builder=DataSourceBuilder.create();
+//        builder.url("jdbc:postgresql://localhost:5432/conference_app");
+//        builder.username("postgres");
+//        builder.password("root");
+//        return builder.build();
+//    }
 }
